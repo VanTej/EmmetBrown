@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'digital-7_italicitalic';
+    src: url('fonts/digital-7_italic-webfont.woff2') format('woff2'),
+         url('fonts/digital-7_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'typewriter_-_a602_dead_postRg';
+    src: url('fonts/typewritera602_________-webfont.woff2') format('woff2'),
+         url('fonts/typewritera602_________-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 70vw;
+    margin-inline: auto;
+    padding-block-end: 1rem;
+    background-color: #333333;
+    font-family: 'digital-7_italicitalic';
+}
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 30%;
+    gap: 1rem;
+    border-top: solid 2px black;
+    padding-block-start: 10px;
+    margin-block-start: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2, h3 {
+    font-family: 'typewriter_-_a602_dead_postRg';
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    background-color: black;
+    width: fit-content;
+    padding-inline: 2rem;
+    margin-inline: auto;
+    margin-block-start: 0.3rem;
+    font-size: 1.3rem;
+}
+
+h3 {
+    background-color: #990000;
+    padding-inline: 0.5rem;
+
+}
+
+.destination p {
+    color: red;
+}
+
+.present p {
+    color: green;
+}
+
+p {
+    font-size: 4rem;
+    margin: 0.3rem;
+    background-color: rgba(17, 17, 17, 0.856);
+    border: solid 2px gray;
+    padding-inline: 0.3rem;
+}
+
+.sep {
+    align-self: flex-end;
+}
+
+.sep p {
+    background-color: #333333;
+    border: #333333;
+    opacity: 0.5;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ampm h3 {
+    margin-block: 0.3rem;
+}
+
+.hour {
+    position: relative;
+    left: 20px;
+}
+
+.min {
+    position: relative;
+    right: 20px;
+}
